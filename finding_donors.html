@@ -15334,9 +15334,9 @@ Look at the graph at the bottom left from the cell above(the visualization creat
 <li>Our model is made using Gradient Boosting Algorithm which is one of the best algorithm in ensable methods. It is more accurate and less time consuming to give output. The model bit more training time to other algorithm available but gives significant results. Our model has accuracy of 87% (real life results may vary depending on new data).</li>
 </ul>
 <p><strong>gradient boosting</strong>:
-The term gradient boosting consists of two sub-terms, gradient and boosting. We already know that gradient boosting is a boosting technique.Let us see how the term ‘gradient’ is related here.</p>
-<p>Gradient boosting re-defines boosting as a numerical optimisation problem where the objective is to minimise the loss function of the model by adding weak learners using gradient descent. Gradient descent is a first-order iterative optimisation algorithm for finding a local minimum of a differentiable function. As gradient boosting is based on minimising a loss function, different types of loss functions can be used resulting in a flexible technique that can be applied to regression, multi-class classification, etc.</p>
-<p>Intuitively, gradient boosting is a stage-wise additive model that generates learners during the learning process (i.e., trees are added one at a time, and existing trees in the model are not changed). The contribution of the weak learner to the ensemble is based on the gradient descent optimisation process. The calculated contribution of each tree is based on minimising the overall error of the strong learner.</p>
+The term gradient boosting consists of two sub-terms, gradient and boosting.</p>
+<p>boosting: Boosting is a technique in machine learning that uses weak learner and then form a one strong learner. The weak learner are other machine learning algorithms (geaneraly dicision trees). These weak learners are used to do some specific tasks to more accurately and then form a one algorithm that uses these weak learners to do specific tasks related to problem individually. These strong learner then predicts our results.</p>
+<p>gradient: Now in gradient boosting gradient is a technique that uses weak learners to reduce the error in our</p>
 <p><a href="https://www.mygreatlearning.com/blog/gradient-boosting/">learn more about gradient boosting</a></p>
 
 </div>
@@ -15978,7 +15978,7 @@ F-score on testing data: 0.7344
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!!</span>jupyter nbconvert *.ipynb --to html
@@ -15997,14 +15997,14 @@ F-score on testing data: 0.7344
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>[&#39;[NbConvertApp] Converting notebook finding_donors.ipynb to html&#39;,
- &#39;[NbConvertApp] Writing 809070 bytes to finding_donors.html&#39;]</pre>
+ &#39;[NbConvertApp] Writing 810349 bytes to finding_donors.html&#39;]</pre>
 </div>
 
 </div>
@@ -16016,7 +16016,7 @@ F-score on testing data: 0.7344
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ls
